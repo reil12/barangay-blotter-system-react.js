@@ -1,0 +1,25 @@
+/* Admin-only size boost: makes every admin page larger and fill the screen */
+.sidebar { width: 280px; }
+.sidebar-brand { padding: 34px 26px; }
+.logo-icon { width: 56px !important; height: 56px !important; font-size: 18px !important; font-weight: 700; color: #fff !important; }
+.logo-text { font-size: 19px !important; }
+.logo-sub { font-size: 14px !important; }
+.sidebar-nav a { font-size: 18px !important; padding: 16px 22px !important; }
+.sidebar-footer a { font-size: 18px !important; }
+.main { margin-left: 280px !important; width: calc(100% - 280px) !important; padding: 44px 56px !important; }
+.header h3, .header h2, .header h5 { font-size: 34px !important; }
+.header p { font-size: 18px !important; }
+.stats-row { gap: 24px !important; }
+.stat-box, .stat-box, .card { padding: 30px 34px !important; }
+.stat-num, .stat-box .num, .card .num { font-size: 48px !important; }
+.stat-label, .stat-lbl, .card h4 { font-size: 14px !important; }
+table th { font-size: 16px !important; padding: 20px 18px !important; }
+table td { font-size: 17px !important; padding: 20px 18px !important; }
+.search-bar input, .search-bar select, input, select, textarea { font-size: 16px !important; }
+.search-bar input { padding: 14px 18px !important; }
+.btn-sm, .btn-save, .btn-danger, .btn-back, .btn-submit-form { font-size: 15px !important; padding: 9px 14px !important; }
+.status-select { padding: 9px 12px !important; font-size: 15px !important; }
+.badge { font-size: 14px !important; padding: 5px 12px !important; }
+.grid { gap: 28px !important; }
+.panel { padding: 30px !important; }
+.panel h3 { font-size: 22px !important; }

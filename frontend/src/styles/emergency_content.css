@@ -1,0 +1,43 @@
+/* Dark fallback so no white gap shows below the photo */
+html { background: #03183a; }
+/* Content only: sections and tables for the Emergency Contacts page.
+   Background and header come from the shared resident styling. */
+.gov-section {
+  background: rgba(10, 28, 56, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 12px;
+  padding: 26px 28px;
+  margin-bottom: 26px;
+  backdrop-filter: blur(8px);
+}
+.gov-section h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+.gov-wrap { overflow-x: auto; }
+.gov-table { width: 100%; border-collapse: collapse; color: #f1f5f9; font-size: 15px; }
+.gov-table th, .gov-table td {
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+.gov-table tr:last-child th, .gov-table tr:last-child td { border-bottom: none; }
+.gov-table thead th { background: rgba(255, 255, 255, 0.1); color: #fff; font-weight: 600; font-size: 14px; }
+.gov-table tbody th { width: 230px; font-weight: 600; color: #fff; }
+.gov-table .gov-num { font-weight: 600; white-space: nowrap; color: #fff; }
+.gov-footer {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+}
+@media (max-width: 700px) {
+  .gov-section { padding: 18px 14px; }
+  .gov-table tbody th { width: auto; }
+  .gov-table th, .gov-table td { padding: 8px; font-size: 13.5px; }
+}

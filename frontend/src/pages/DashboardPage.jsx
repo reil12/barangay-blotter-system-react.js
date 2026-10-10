@@ -16,7 +16,7 @@ export default function DashboardPage() {
     <section className="hero-wrapper">
       <div className="hero-glass-panel">
         <span className="hero-badge-tag">Official Governance Dashboard</span>
-        <h1>Welcome to the Local Government Portal</h1>
+        <h1>Welcome to the Barangay Commonwealth Portal</h1>
         <p>Submit modern case logs, review past submissions, and track alternative dispute resolutions safely and securely online.</p>
         <div className="hero-actions-row">
           <Link to="/submit" className="primary-cta">File an Incident Blotter</Link>
